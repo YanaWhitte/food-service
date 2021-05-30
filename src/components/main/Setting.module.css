@@ -1,0 +1,17 @@
+.setting {
+  padding: 24px 24px 24px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 24px;
+}
+
+.title {
+  margin-bottom: 24px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+}

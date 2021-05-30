@@ -1,0 +1,14 @@
+.contentContainer {
+  height: 100vh;
+  /* overflow: hidden; */
+  display: grid;
+  grid-template-columns: [content] 2fr [order] 1fr;
+  grid-column-gap: 24px;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  grid-area: content;
+}

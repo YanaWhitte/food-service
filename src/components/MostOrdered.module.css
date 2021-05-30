@@ -1,0 +1,56 @@
+.mostOrdered {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: #1f1d2b;
+  border-radius: 8px;
+  margin: 24px 0;
+}
+
+.dishesList {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #393c49;
+}
+
+.dish {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.dish img {
+  margin-right: 16px;
+  width: 56px;
+  height: auto;
+}
+
+.dishName {
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #e0e6e9;
+}
+
+.quantity {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #abbbc2;
+}
+
+.viewBtn {
+  cursor: pointer;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  padding: 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ea7c69;
+  border: 1px solid #ea7c69;
+  background: none;
+  box-sizing: border-box;
+  border-radius: 8px;
+}

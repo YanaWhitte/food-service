@@ -1,0 +1,166 @@
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 24px;
+  padding: 0 24px 24px 0;
+}
+
+.dashCards {
+  display: flex;
+  padding: 24px 0;
+  border-top: 1px solid #393c49;
+}
+
+.dashCardItem {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px;
+  background: #1f1d2b;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+
+.dashCardItem:last-child {
+  margin-right: 0;
+}
+
+.cardIcon {
+  margin-right: 12px;
+}
+
+.percent {
+  margin-right: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.percent.green {
+  color: #50d1aa;
+}
+
+.percent.red {
+  color: #ff7ca3;
+}
+
+.number {
+  margin: 8px 0;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #abbbc2;
+}
+
+.orderReportTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  flex: 1;
+  background: #1f1d2b;
+  border-radius: 8px;
+}
+
+.titleRow {
+  justify-content: space-between;
+}
+
+.titleRow h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.titleTableRow {
+  margin: 16px 0 10px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #393c49;
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.column1 {
+  margin-right: 35px;
+  /* width: 155px; */
+  flex: 2;
+}
+
+.column2 {
+  margin-right: 32px;
+  flex: 2;
+}
+
+.column3 {
+  margin-right: 60px;
+  /* width: 90px; */
+  flex: 1;
+}
+
+.column4 {
+  /* width: 100px; */
+  flex: 1;
+}
+
+.tableHolder {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tableRow {
+  margin-top: 16px;
+  padding: 10px 0;
+  display: flex;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #e0e6e9;
+}
+
+.tableRow .column1 {
+  display: flex;
+}
+
+.tableRow .column1 img {
+  margin-right: 16px;
+  margin-top: -5px;
+}
+
+.tableRow .status {
+  display: inline;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  border-radius: 30px;
+  padding: 4px 12px;
+}
+
+.tableRow .status.completed {
+  color: #50d1aa;
+  background: rgba(107, 226, 190, 0.24);
+}
+
+.tableRow .status.preparing {
+  color: #9290fe;
+  background: rgba(146, 144, 254, 0.2);
+}
+
+.tableRow .status.pending {
+  color: #ffb572;
+  background: rgba(255, 181, 114, 0.2);
+}

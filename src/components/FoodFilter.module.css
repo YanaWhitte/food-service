@@ -1,0 +1,31 @@
+.foodFilter {
+  margin-bottom: 24px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #393c49;
+}
+
+.item {
+  cursor: pointer;
+  margin-right: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 16px;
+  letter-spacing: 0.5px;
+  line-height: 140%;
+}
+
+.selected {
+  position: relative;
+  color: #ea7c69;
+}
+
+.selected::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  height: 3px;
+  width: 37px;
+  background: #ea7c69;
+  border-radius: 24px;
+}

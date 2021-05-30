@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Barlow;
+  src: url(fonts/Barlow-SemiBold.ttf);
+  font-size: 600;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url(fonts/Barlow-Medium.ttf);
+  font-size: 500;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url(fonts/Barlow-Regular.ttf);
+  font-size: 400;
+}

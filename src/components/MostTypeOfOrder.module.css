@@ -1,0 +1,55 @@
+.mostTypeOfOrder {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 35px;
+  background: #1f1d2b;
+  border-radius: 8px;
+}
+
+.content,
+.graphItem {
+  display: flex;
+}
+
+.content {
+  margin-top: 16px;
+  padding-top: 28px;
+  border-top: 1px solid #393c49;
+  align-items: center;
+}
+
+.graphItem {
+  margin-bottom: 16px;
+}
+
+.graphItem:last-child {
+  margin-bottom: 0;
+}
+
+.content img {
+  margin-right: 25px;
+}
+
+.circle {
+  display: flex;
+  flex-shrink: 0;
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+  background: #ff7ca3;
+  border-radius: 50%;
+}
+
+.title {
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+}
+
+.number {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #abbbc2;
+}

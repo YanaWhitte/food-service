@@ -1,0 +1,46 @@
+.settingsList {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #1f1d2b;
+  border-radius: 8px;
+}
+
+.settingsItem {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  padding: 24px 0 24px 24px;
+}
+
+.settingsItem.active {
+  background: rgba(234, 124, 105, 0.26);
+}
+
+.settingsItem.active .title {
+  color: #ea7c69;
+}
+
+.settingsItem.active::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 4px;
+  height: 39px;
+  background: #ea7c69;
+  border-radius: 30px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  margin-bottom: 4px;
+}
+
+.description {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #abbbc2;
+}
