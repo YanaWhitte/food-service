@@ -10,7 +10,7 @@
 }
 
 .scroll::-webkit-scrollbar {
-  width: 6px;
-  background: #000;
+  width: 0.1px;
+  background: none;
   /* background: none; */
 }

@@ -2,7 +2,7 @@ import { DeleteIcon } from "./Icons";
 import s from "./Order.module.css";
 
 const Order = () => {
-  return <div className={s.order} style={{ display: "flex", flexDirection: "column" }}>
+  return <div className={s.order}>
     <h2 className={s.orderNumber}>Orders #34562</h2>
     <div className={s.buttons}>
       <button className={`${s.btn} ${s.selected}`}>Dine In</button>

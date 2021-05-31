@@ -2,7 +2,7 @@ import s from "./main/Dashboard.module.css";
 import TitleWithButton from "./TitleWithButton";
 
 const OrderReportTable = () => {
-  return <div className={s.orderReportTable} style={{ flex: 1 }}>
+  return <div className={s.orderReportTable}>
     <TitleWithButton title="Order Report" icon="optionIcon" buttonName="Filter Order" />
     <div className={s.titleTableRow}>
       <p className={s.column1}>Customer</p>
