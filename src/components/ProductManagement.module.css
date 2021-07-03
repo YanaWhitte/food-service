@@ -1,4 +1,6 @@
 .productManagement {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   background: #1f1d2b;
   border-radius: 8px;
@@ -8,6 +10,10 @@
 .title {
   margin-bottom: 24px;
   /* padding: 24px; */
+}
+
+.dishListHolder {
+  flex: 1;
 }
 
 .dishList {
@@ -109,4 +115,36 @@
 .dishItem button img {
   margin-top: -4px;
   margin-right: 8px;
+}
+
+.buttons {
+  display: flex;
+  margin: 45px 0 24px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.buttons .discard,
+.buttons .save {
+  cursor: pointer;
+  width: 172px;
+  padding: 14px 0;
+  box-sizing: border-box;
+}
+
+.buttons .discard {
+  margin-right: 8px;
+  background: none;
+  border: 1px solid #ea7c69;
+  border-radius: 8px;
+  color: #ea7c69;
+}
+
+.buttons .save {
+  background: #ea7c69;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.4);
+  border: none;
+  border-radius: 8px;
+  color: #fafafa;
 }
