@@ -1,4 +1,4 @@
-import s from "./main/Sidebar.module.css";
+import s from "../styles/Sidebar.module.css";
 
 export const LogoIcon = () => {
   return <div className={`${s.icon}`}>

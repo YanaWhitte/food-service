@@ -1,4 +1,4 @@
-import s from "./Content.module.css";
+import s from "../../styles/Content.module.css";
 import Content from "./Content";
 import Order from "../Order";
 

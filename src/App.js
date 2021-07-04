@@ -12,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Sidebar />
         <>
+          <Route path="/" component={ContentContainer} />
           <Route path="/home" component={ContentContainer} />
           <Route path="/dashboard" component={Dashboard} />
           <Route path="/setting" component={Setting} />

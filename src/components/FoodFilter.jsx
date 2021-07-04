@@ -1,4 +1,4 @@
-import s from "./FoodFilter.module.css";
+import s from "../styles/FoodFilter.module.css";
 
 const FoodFilter = () => {
   return <div className={s.foodFilter}>

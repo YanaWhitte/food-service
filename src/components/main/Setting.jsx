@@ -1,4 +1,4 @@
-import s from "./Setting.module.css";
+import s from "../../styles/Setting.module.css";
 import SettingsList from "../SettingsList";
 import ProductManagement from "../ProductManagement";
 

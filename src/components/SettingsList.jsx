@@ -1,4 +1,4 @@
-import s from "./SettingsList.module.css";
+import s from "../styles/SettingsList.module.css";
 import { AppereanceIcon, RestaurantIcon, ManagementIcon, NotificationsIcon, SecurityIcon, AboutUsIcon } from "./Icons";
 
 const SettingsList = () => {

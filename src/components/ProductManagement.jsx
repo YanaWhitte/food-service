@@ -1,5 +1,5 @@
 import FoodFilter from "./FoodFilter";
-import s from "./ProductManagement.module.css";
+import s from "../styles/ProductManagement.module.css";
 import TitleWithButton from "./TitleWithButton";
 
 const ProductManagement = () => {

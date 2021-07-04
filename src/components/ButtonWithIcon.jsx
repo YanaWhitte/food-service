@@ -1,4 +1,4 @@
-import s from "./ButtonWithIcon.module.css";
+import s from "../styles/ButtonWithIcon.module.css";
 
 const ButtonWithIcon = ({ icon, buttonName }) => {
   return <button className={s.btn}>

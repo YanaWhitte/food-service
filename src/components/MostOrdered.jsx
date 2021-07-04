@@ -1,4 +1,4 @@
-import s from "./MostOrdered.module.css";
+import s from "../styles/MostOrdered.module.css";
 import TitleWithButton from "./TitleWithButton";
 
 const MostOrdered = () => {

@@ -1,4 +1,4 @@
-import s from "./MostTypeOfOrder.module.css";
+import s from "../styles/MostTypeOfOrder.module.css";
 import TitleWithButton from "./TitleWithButton";
 
 const MostTypeOfOrder = () => {

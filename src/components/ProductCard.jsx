@@ -1,4 +1,4 @@
-import s from "./Cards.module.css";
+import s from "../styles/Cards.module.css";
 
 const ProductCard = ({ img, title, price, availability }) => {
   return <div className={s.productCard}>

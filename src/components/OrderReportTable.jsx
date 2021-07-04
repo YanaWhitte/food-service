@@ -1,4 +1,4 @@
-import s from "./main/Dashboard.module.css";
+import s from "../styles/Dashboard.module.css";
 import TitleWithButton from "./TitleWithButton";
 
 const OrderReportTable = () => {

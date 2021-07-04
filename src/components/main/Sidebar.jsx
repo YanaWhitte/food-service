@@ -1,4 +1,4 @@
-import s from "./Sidebar.module.css";
+import s from "../../styles/Sidebar.module.css";
 import { NavLink } from "react-router-dom";
 import { DashboardIcon, DiscountIcon, HomeIcon, LogoIcon, LogoutIcon, MessageIcon, NotificationIcon, SettingIcon } from "../Icons"
 

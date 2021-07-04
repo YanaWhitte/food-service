@@ -1,4 +1,4 @@
-import s from "./main/Dashboard.module.css";
+import s from "../styles/Dashboard.module.css";
 import ButtonWithIcon from "./ButtonWithIcon";
 
 const TitleWithButton = ({ title, icon, buttonName }) => {

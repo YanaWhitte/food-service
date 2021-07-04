@@ -1,4 +1,4 @@
-import s from "./Header.module.css";
+import s from "../styles/Header.module.css";
 
 const Header = ({ title, date, withSearch }) => {
   return <header className={s.header}>

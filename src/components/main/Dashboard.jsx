@@ -1,4 +1,4 @@
-import s from "./Dashboard.module.css";
+import s from "../../styles/Dashboard.module.css";
 import Header from "./../Header";
 import DashCards from "../DashCards";
 import OrderReportTable from "../OrderReportTable";

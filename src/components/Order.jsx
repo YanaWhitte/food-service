@@ -1,5 +1,5 @@
 import { DeleteIcon } from "./Icons";
-import s from "./Order.module.css";
+import s from "../styles/Order.module.css";
 
 const Order = () => {
   return <div className={s.order}>

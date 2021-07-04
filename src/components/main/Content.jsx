@@ -1,5 +1,5 @@
 import ProductCards from "../ProductCards";
-import s from "./Content.module.css";
+import s from "../../styles/Content.module.css";
 import TitleWithButton from "../TitleWithButton";
 import FoodFilter from "../FoodFilter";
 import Header from "../Header";
