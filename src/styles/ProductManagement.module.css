@@ -1,7 +1,6 @@
 .productManagement {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   background: #1f1d2b;
   border-radius: 8px;
   padding: 24px;
@@ -9,7 +8,6 @@
 
 .title {
   margin-bottom: 24px;
-  /* padding: 24px; */
 }
 
 .dishListHolder {

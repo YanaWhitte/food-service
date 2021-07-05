@@ -1,12 +1,12 @@
 .btn {
+  /* width: 110px; */
   cursor: pointer;
   color: white;
   font-weight: 500;
   font-size: 14px;
-  /* line-height: 130%; */
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   padding: 12px 14px;
   background: #1f1d2b;
   border: 1px solid #393c49;
@@ -16,4 +16,40 @@
 
 .btn img {
   margin-right: 10px;
+}
+
+.btn.active {
+  background: #ea7c69;
+}
+
+.droplist {
+  opacity: 0;
+  position: absolute;
+  width: 105px;
+  margin-top: 5px;
+  background: #1f1d2b;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.droplist.show {
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+
+.listItem {
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  background: #ea7c69;
+}
+
+.listItem.selected {
+  background: rgb(118 118 118);
+  color: #e1e1e1;
 }

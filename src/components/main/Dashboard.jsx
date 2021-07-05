@@ -7,12 +7,12 @@ import MostTypeOfOrder from "../MostTypeOfOrder";
 
 const Dashboard = () => {
   return <div className={s.dashboard}>
-    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <div>
       <Header title="Dashboard" date="Tuesday, 2 Feb 2021" />
       <DashCards />
       <OrderReportTable />
     </div>
-    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <div>
       <MostOrdered />
       <MostTypeOfOrder />
     </div>

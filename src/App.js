@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
-import { Route } from "react-router";
+import { Redirect, Route } from "react-router";
 import Sidebar from "./components/main/Sidebar";
 import ContentContainer from "./components/main/ContentContainer";
 import Dashboard from "./components/main/Dashboard";
@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Sidebar />
         <>
-          <Route path="/" component={ContentContainer} />
+          <Redirect exact from="/" to="/home" />
           <Route path="/home" component={ContentContainer} />
           <Route path="/dashboard" component={Dashboard} />
           <Route path="/setting" component={Setting} />

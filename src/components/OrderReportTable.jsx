@@ -10,7 +10,7 @@ const OrderReportTable = () => {
       <p className={s.column3}>Total Payment</p>
       <p className={s.column4}>Status</p>
     </div>
-    <div className={`${s.tableHolder} scroll`}>
+    <div className={`${s.tableHolder}`}>
       <TableRow avatar="1" userName="Eren Jaegar" menu="Spicy seasoned seafood noodles"
         totalPayment="$125" status="Completed" statusClass={s.completed} />
       <TableRow avatar="2" userName="Reiner Braunn" menu="Salted Pasta with mushroom sauce"

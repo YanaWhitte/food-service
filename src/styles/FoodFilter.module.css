@@ -12,6 +12,11 @@
   padding-bottom: 16px;
   letter-spacing: 0.5px;
   line-height: 140%;
+  transition: all 0.3s ease;
+}
+
+.item:hover:not(.selected) {
+  color: #ffaea0;
 }
 
 .selected {

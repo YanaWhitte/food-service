@@ -2,7 +2,7 @@ import s from "../styles/Cards.module.css";
 import ProductCard from "./ProductCard";
 
 const ProductCards = () => {
-  return <div className={`${s.cards} scroll`}>
+  return <div className={`${s.cards}`}>
     <ProductCard img="img-1" title="Spicy seasoned seafood noodles" price="2.29" availability="20" />
     <ProductCard img="img-2" title="Salted Pasta with mushroom sauce" price="2.69" availability="11" />
     <ProductCard img="img-3" title="Beef dumpling in hot and sour soup" price="2.99" availability="16" />

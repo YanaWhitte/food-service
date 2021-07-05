@@ -6,7 +6,7 @@ const ProductManagement = () => {
   return <div className={s.productManagement}>
     <div className={s.title}><TitleWithButton title="Products Management" icon="optionIcon" buttonName="Manage Categories" /></div>
     <FoodFilter />
-    <div className={`${s.dishListHolder} scroll`}>
+    <div className={`${s.dishListHolder}`}>
       <div className={`${s.dishList}`}>
         <div className={`${s.addDish} ${s.dish}`}>
           <img src={process.env.PUBLIC_URL + "/icons/plus.svg"} alt="plus" />

@@ -14,6 +14,7 @@
 }
 
 .dish {
+  cursor: pointer;
   display: flex;
   margin-bottom: 24px;
 }
@@ -53,4 +54,13 @@
   background: none;
   box-sizing: border-box;
   border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.viewBtn:hover {
+  transform: scale(1.02);
+}
+
+.viewBtn:active {
+  opacity: 0.5;
 }

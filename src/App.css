@@ -11,6 +11,5 @@
 
 .scroll::-webkit-scrollbar {
   width: 2px;
-  background: black;
-  /* background: none; */
+  background: none;
 }

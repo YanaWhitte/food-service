@@ -8,9 +8,9 @@ aside {
   overflow: hidden;
 }
 
-/* .active + a div {
-  border-top-right-radius: 8px;
-} */
+.sidebar {
+  position: fixed;
+}
 
 .icon {
   padding: 23px 24px 23px 23px;
@@ -38,12 +38,16 @@ aside {
 .icon.deleteIcon {
   cursor: pointer;
   margin-left: 14px;
-  padding: 14px;
+  padding: 13px;
   border: 1px solid #ea7c69;
   box-sizing: border-box;
   border-radius: 8px;
   width: 48px;
   height: 48px;
+}
+
+.icon.deleteIcon:active {
+  border: 1px solid #ff7ca3;
 }
 
 .settingsIcon {

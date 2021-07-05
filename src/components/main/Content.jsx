@@ -6,7 +6,7 @@ import Header from "../Header";
 
 const Content = () => {
   return <div className={s.content}>
-    <Header title="Jaegar Resto" date="Tuesday, 2 Feb 2021" withSearch />
+    <Header title="Jaegar Resto" withSearch />
     <FoodFilter />
     <TitleWithButton title="Choose Dishes" icon="arrowDown" buttonName="Dine In" />
     <ProductCards />

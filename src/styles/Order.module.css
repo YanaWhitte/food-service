@@ -1,12 +1,18 @@
 .order {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  padding: 24px;
   grid-area: order;
-  background: #1f1d2b;
   border-radius: 8px 0 0 8px;
   box-sizing: border-box;
+}
+
+.orderHolder {
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  box-sizing: border-box;
+  background: #1f1d2b;
+  border-radius: 8px 0 0 8px;
 }
 
 .orderNumber {
@@ -32,6 +38,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 140%;
+  transition: all 0.2s ease;
 }
 
 .btn.selected {
@@ -213,4 +220,13 @@ input.quantity::placeholder,
   font-size: 14px;
   line-height: 140%;
   color: #fafafa;
+  transition: all 0.3s ease;
+}
+
+.paymentBtn:hover {
+  transform: scale(1.02);
+}
+
+.paymentBtn:active {
+  opacity: 0.8;
 }
