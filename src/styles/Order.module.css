@@ -13,6 +13,7 @@
   box-sizing: border-box;
   background: #1f1d2b;
   border-radius: 8px 0 0 8px;
+  width: 30%;
 }
 
 .orderNumber {
@@ -140,6 +141,7 @@ input.quantity {
   font-size: 16px;
   line-height: 140%;
   color: #ffffff;
+  appearance: textfield;
 }
 
 input.quantity::-webkit-outer-spin-button,
@@ -178,7 +180,6 @@ input.quantity::placeholder,
 .note::placeholder {
   font-family: "Barlow";
   font-size: 14px;
-  line-height: 140%;
   color: #889898;
 }
 

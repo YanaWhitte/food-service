@@ -1,5 +1,5 @@
 .contentContainer {
-  /* height: 100vh; */
+  min-height: 100vh;
   /* overflow: hidden; */
   display: grid;
   grid-template-columns: [content] 2fr [order] 1fr;

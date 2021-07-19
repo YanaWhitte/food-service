@@ -3,7 +3,7 @@ import TitleWithButton from "./TitleWithButton";
 
 const MostTypeOfOrder = () => {
   return <div className={s.mostTypeOfOrder}>
-    <TitleWithButton title="Most Type of Order" icon="arrowDown" buttonName="Today" />
+    <TitleWithButton title="Most Type of Order" icon="arrowDown" buttonName="Today" items={["Today", "One day ago", "One week ago"]} />
     <div className={s.content}>
       <img src={process.env.PUBLIC_URL + "/icons/circle.svg"} alt="graph" />
       <div>

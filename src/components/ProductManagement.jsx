@@ -1,11 +1,14 @@
 import FoodFilter from "./FoodFilter";
 import s from "../styles/ProductManagement.module.css";
 import TitleWithButton from "./TitleWithButton";
+import {useState} from 'react'
 
 const ProductManagement = () => {
+  const [currentActive,setCurrentActive] = useState("Hot Dishes")
+
   return <div className={s.productManagement}>
-    <div className={s.title}><TitleWithButton title="Products Management" icon="optionIcon" buttonName="Manage Categories" /></div>
-    <FoodFilter />
+    <div className={s.title}><TitleWithButton title="Products Management" icon="optionIcon" asButton items={["Manage Categories"]} buttonName="Manage Categories" /></div>
+    <FoodFilter currentActive={currentActive} onUpdateParent={({currentActive: newCurrentActive}) => setCurrentActive(newCurrentActive)}  />
     <div className={`${s.dishListHolder}`}>
       <div className={`${s.dishList}`}>
         <div className={`${s.addDish} ${s.dish}`}>
@@ -28,7 +31,7 @@ const ProductManagement = () => {
 
 const DishItem = ({ image, title, price, quantity }) => {
   return <div className={`${s.dishItem} ${s.dish}`}>
-    <img src={process.env.PUBLIC_URL + `/img/img-${image}.png`} alt="dish photo" className={s.dishPhoto} />
+    <img src={process.env.PUBLIC_URL + `/img/img-${image}.png`} alt={title} className={s.dishPhoto} />
     <h3 className={s.dishTitle}>{title}</h3>
     <div className={s.priceRow}>
       <p>$ {price}</p>

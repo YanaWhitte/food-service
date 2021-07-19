@@ -3,7 +3,7 @@ import TitleWithButton from "./TitleWithButton";
 
 const OrderReportTable = () => {
   return <div className={s.orderReportTable}>
-    <TitleWithButton title="Order Report" icon="optionIcon" buttonName="Filter Order" />
+    <TitleWithButton title="Order Report" icon="optionIcon" buttonName="Filter Order" items={["Filter Order", "Pending", "Preparing", "Completed"]} />
     <div className={s.titleTableRow}>
       <p className={s.column1}>Customer</p>
       <p className={s.column2}>Menu</p>
