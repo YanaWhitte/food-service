@@ -1,44 +1,80 @@
-aside {
-  min-height: 100vh;
+aside,
+.fixed {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #1f1d2b;
-  border-radius: 0 16px 16px 0;
-  overflow: hidden;
 }
 
-.sidebar {
+.fixed {
   position: fixed;
 }
 
-.icon {
-  padding: 23px 24px 23px 23px;
-  background: #1f1d2b;
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
 }
 
-.icon svg {
-  cursor: pointer;
-  border-radius: 8px;
+.logoutSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #1f1d2b;
+  border-bottom-right-radius: 12px;
 }
 
-.sidebar a {
-  position: relative;
+.activeHolder + .logoutSection {
+  border-top-right-radius: 12px;
+}
+
+.morePadding.linkHolder {
+  height: calc(83px + 24px);
+}
+
+.linkHolder {
+  width: 104px;
+  height: 83px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1d2b;
+}
+
+.linkHolder a {
   width: 100%;
-  border-radius: 8px;
-  background: red;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.icon.selected {
-  padding: 13px 24px 9px 12px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+.activeHolder a {
+  width: 100%;
+  background-color: #252836;
   margin-left: 12px;
-  background: #252836;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 
-.icon.selected svg {
-  box-shadow: 0px 6px 19px rgb(234 124 105 / 32%);
+.activeHolder a .icon {
+  margin-left: -12px;
+}
+
+.holderPrev {
+  border-bottom-right-radius: 12px;
+}
+
+.holderNext {
+  border-top-right-radius: 12px;
+}
+
+.disabled svg {
+  opacity: 0.5;
 }
 
 .icon.deleteIcon {
@@ -56,9 +92,11 @@ aside {
   border: 1px solid #ff7ca3;
 }
 
+.icon.deleteIcon:active img {
+  filter: invert(71%) sepia(77%) saturate(2116%) hue-rotate(300deg) brightness(117%) contrast(122%);
+}
+
 .settingsIcon {
   margin-top: 1.5px;
   margin-right: 8px;
-  width: 16px;
-  height: 16px;
 }

@@ -150,6 +150,11 @@ input.quantity::-webkit-inner-spin-button {
   margin: 0;
 }
 
+input.quantity:focus {
+  outline: 0;
+  box-shadow: 0 0 0 1px #979797;
+}
+
 .totalItemPrice {
   font-weight: 500;
   font-size: 16px;
@@ -174,6 +179,11 @@ input.note {
   font-size: 14px;
   line-height: 140%;
   color: #e0e6e9;
+}
+
+input.note:focus {
+  outline: 0;
+  box-shadow: 0 0 0 1px #979797;
 }
 
 input.quantity::placeholder,

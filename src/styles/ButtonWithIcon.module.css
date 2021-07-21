@@ -1,5 +1,4 @@
 .btn {
-  /* width: 110px; */
   cursor: pointer;
   color: white;
   font-weight: 500;
@@ -24,9 +23,9 @@
 
 .droplist {
   opacity: 0;
+  margin-top: 5px;
   position: absolute;
   width: 105px;
-  margin-top: 5px;
   background: #1f1d2b;
   border: 1px solid #393c49;
   border-radius: 8px;
@@ -45,11 +44,19 @@
   cursor: pointer;
 }
 
+.listItem:first-child {
+  padding-top: 10px;
+}
+
+.listItem:last-child {
+  padding-bottom: 10px;
+}
+
 .listItem:hover {
   background: #ea7c69;
 }
 
 .listItem.selected {
-  background: rgb(118 118 118);
-  color: #e1e1e1;
+  background: #1f1d2b;
+  opacity: 0.3;
 }
